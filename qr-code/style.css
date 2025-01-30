@@ -27,6 +27,8 @@ body{
     -webkit-box-shadow: -1px 3px 15px 0px rgba(151,151,151,1);
     -moz-box-shadow: -1px 3px 15px 0px rgba(151,151,151,1);
     box-shadow: -1px 3px 15px 0px rgba(151,151,151,1);
+
+ 
 }
 img{
     width: 100%;
@@ -39,7 +41,7 @@ h1{
     font-weight: bold;
     margin-top: 20px;
 }
-p{
+.content> p{
     margin-top: 20px;
     color: #7D889E;
     text-align: center;
@@ -49,4 +51,8 @@ p{
 .content{
     margin-top: 10px;
     margin-bottom: 10px;
+}
+.credit{
+justify-self: center;
+align-self: flex-end;
 }
