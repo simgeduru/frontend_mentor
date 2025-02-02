@@ -6,6 +6,7 @@
   /* 2. Remove default margin */
   * {
     margin: 0;
+    font-family: "Figtree", serif;
   }
   
   body {
@@ -48,4 +49,31 @@
 
 body{
     background-color: #F4D04E;
+}
+
+.container{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    max-width: 24rem;
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    
+
+}
+.description{
+    font-weight: 500;
+    color: hsl(0, 0%, 42%);
+}
+h1{
+    color: hsl(0, 0%, 7%);
+    font-weight: 800;
 }
