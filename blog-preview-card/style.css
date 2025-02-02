@@ -52,7 +52,7 @@ body{
 }
 
 .container{
-    min-height: 100vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -62,18 +62,65 @@ body{
 main{
     max-width: 24rem;
     background-color: white;
-    padding: 20px;
+    padding: 24px;
     display: flex;
     flex-direction: column;
     border-radius: 10px;
-    
+    gap: 24px;
+    box-shadow: 13px 13px 0px 4px rgba(0,0,0,0.75);
+-webkit-box-shadow: 13px 13px 0px 4px rgba(0,0,0,0.75);
+-moz-box-shadow: 13px 13px 0px 4px rgba(0,0,0,0.75);
+margin: 0 24px;
+/* flex-grow: 1; */
+}
 
+@media screen and (max-width: 376px) {
+    main {
+      margin: 0 24px;
+      box-shadow: 6px 6px 0px 4px rgba(0,0,0,0.75);
+      -webkit-box-shadow: 6px 6px 0px 4px rgba(0,0,0,0.75);
+      -moz-box-shadow: 6px 6px 0px 4px rgba(0,0,0,0.75);
+  }
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
 }
 .description{
     font-weight: 500;
     color: hsl(0, 0%, 42%);
+    font-size: 0.875rem;
+
+    
 }
 h1{
     color: hsl(0, 0%, 7%);
     font-weight: 800;
+    font-size: 1.25rem;
+}
+button, .author, .date{
+font-size: 0.75rem;
+}
+button{
+    display: inline-block;
+    max-width: 5.125rem;
+    font-weight: 800;
+    background-color: #F4D04E;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+}
+.author{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+}
+.author>p{
+    font-weight: 800;
+}
+
+footer{
+    margin-top: 20px;
 }
