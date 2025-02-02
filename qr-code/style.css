@@ -15,6 +15,7 @@ body{
     min-height: 100vh;
     background-color: #D5E1EF;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -52,7 +53,7 @@ h1{
     margin-top: 10px;
     margin-bottom: 10px;
 }
-/* .credit{
-justify-self: center;
-align-self: flex-end;
-} */
+.credit{
+
+
+}
