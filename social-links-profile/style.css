@@ -6,7 +6,7 @@
   /* 2. Remove default margin */
   * {
     margin: 0;
-    font-family: "Figtree", serif;
+    font-family: "Inter", serif;
   }
   
   body {
@@ -14,6 +14,9 @@
     line-height: 1.5;
     /* 4. Improve text rendering */
     -webkit-font-smoothing: antialiased;
+    background-color: hsl(0, 0%, 8%);
+    font-size: 0.875rem;
+    color: white;
   }
   
   /* 5. Improve media defaults */
@@ -46,3 +49,57 @@
   #root, #__next {
     isolation: isolate;
   }
+  .container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  main{
+    background-color:  hsl(0, 0%, 12%);
+    max-width: 21rem;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 24px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+
+  }
+  @media  (min-width: 425px ) and (max-width: 768px) {
+    main {
+      /* background-color: blue; */
+      max-width: 29rem;
+    }
+  }
+.state{
+    color: hsl(75, 94%, 57%);
+}
+.links{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    max-width: 100%;
+}
+.link{
+    width: 100%;
+   max-width: 100%;
+    background-color: hsl(0, 0%, 20%);
+    padding: 10px 0px;
+    border-radius: 5px;
+    color: white;
+border: none;
+}
+.name{
+font-size: 1.5rem;
+}
+.state, .link{
+    font-weight: 600;
+}
