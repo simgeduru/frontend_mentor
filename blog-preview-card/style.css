@@ -99,6 +99,9 @@ h1{
     font-weight: 800;
     font-size: 1.25rem;
 }
+h1:hover{
+    color: #F4D04E;
+}
 button, .author, .date{
 font-size: 0.75rem;
 }
