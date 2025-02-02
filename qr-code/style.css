@@ -20,8 +20,7 @@ body{
     align-items: center;
 }
 .container{
-    width: 20rem;
-    height: auto;
+    max-width: 20rem;
     background-color: white;
     padding: 20px;
     border-radius: 10px;
@@ -52,4 +51,10 @@ h1{
 .content{
     margin-top: 10px;
     margin-bottom: 10px;
+}
+main {
+    flex-grow: 1;  /* İçeriğin kalan alanı kaplamasını sağlar */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
